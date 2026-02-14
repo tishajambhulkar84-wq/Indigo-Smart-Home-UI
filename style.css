@@ -1,0 +1,35 @@
+/* Sidebar and General Theme */
+body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8f9fa; margin: 0; }
+.wrapper { display: flex; align-items: stretch; }
+
+#sidebar { min-width: 220px; max-width: 220px; background: #222; color: #fff; min-height: 100vh; }
+.sidebar-header { background: #CC0000; padding: 20px; text-align: center; font-weight: bold; font-size: 1.2rem; }
+.sidebar-logo-img { width: 80px; margin-bottom: 10px; }
+
+#sidebar ul p { color: #fff; padding: 10px; }
+#sidebar ul li a { padding: 15px 20px; display: block; color: #bbb; text-decoration: none; border-bottom: 1px solid #333; }
+#sidebar ul li a:hover, #sidebar ul li.active > a { color: #fff; background: #CC0000; }
+
+/* Main Content Area */
+#content { width: 100%; }
+.navbar { background: #444; color: white; padding: 10px 20px; display: flex; justify-content: flex-end; }
+.logout-btn { background: #d9534f; border: none; color: white; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+
+.page-container { padding: 20px; }
+.card { background: white; border: 1px solid #ddd; padding: 20px; border-radius: 4px; }
+h2 { color: #800000; font-size: 1.5rem; margin-bottom: 20px; }
+
+/* Table Styling */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th { background: #f2f2f2; padding: 10px; border: 1px solid #ddd; text-align: left; }
+td { padding: 10px; border: 1px solid #ddd; }
+
+/* Button Styles from Paper */
+.btn-edit { background: #337ab7; color: white; border: none; padding: 5px 10px; margin-right: 5px; }
+.btn-delete { background: #d9534f; color: white; border: none; padding: 5px 10px; }
+.btn-add { background: #5cb85c; color: white; border: none; padding: 10px 15px; margin-top: 10px; }
+
+/* Status Labels (Fig 7) */
+.status-standby { background: #f0ad4e; color: white; padding: 2px 8px; border-radius: 3px; }
+.status-off { background: #d9534f; color: white; padding: 2px 8px; border-radius: 3px; }
+.status-on { background: #5cb85c; color: white; padding: 2px 8px; border-radius: 3px; }
